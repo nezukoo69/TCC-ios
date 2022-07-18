@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <title>Login - MERAKI</title>
+</head>
+<body>
+    <section>
+    <div class="banner">
+        <video autoplay muted loop>
+            <source src="images/login-video.mp4" type="video/mp4">
+        </video>
+    </div>
+      <div class="background">
+      </div>
+      <form class="login-form">
+          <h3>Faça o login</h3>
+  
+          <label for="username">Username</label>
+          <input type="text" placeholder="Email" id="login">
+  
+          <label for="password">Senha</label>
+          <input type="password" placeholder="Senha" id="senha">
+  
+          <button type="submit" onclick="logar(); return false">Log In</button>
+          <div class="social">
+            <div class="go"><i class="fab fa-google"></i>  Google</div>
+            <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
+          </div>
+      </form>
+    </section>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
